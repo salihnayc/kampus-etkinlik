@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/2416501023.css">
+    <title>Etkinlik Güncelle</title>
+</head>
+<body>
+    <header>
+        <h1>Kampüs Etkinlikleri</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="etkinlikler.html">Etkinlikler</a>
+            <a href="etkinlik-ekle.html">Ekle</a>
+            <a href="etkinlik-guncelle.html">Güncelle</a>
+        </nav>
+     </header>
+
+    <main>
+        <form action="" class="etkinlik-form">
+            <p>
+                <label for="etkinlikad">Etkinlik Adı</label> <br>
+                <input type="text" value="Kariyer Günleri 2026" required class="form-input">
+            </p>
+            <p>
+                <label for="kategori">Kategori</label> <br>
+                <select name="kategoriler" id="kategoriler" class="form-input">
+                    <option value="seminer">Seminer</option>
+                    <option value="atolye">Atölye</option>
+                </select>
+            </p>
+            <p>
+                <label for="tarih">Tarih / Saat</label> <br>
+                <input type="datetime-local" value="2026-10-12T14:00" required class="form-input">
+            </p>
+            <p>
+                <label for="aciklama">Açıklama</label> <br>
+                <textarea name="aciklama" required class="form-input">Yer A Blok Konferans Salonu Kontenjan 120</textarea>
+            </p>
+            <p>
+                <button type="submit" class="form-input" id="form-buton">Güncelle</button>
+            </p>          
+        </form>
+    </main>
+
+    <footer>Salih Naycı 2416501023 2026</footer>
+</body>
+</html>
