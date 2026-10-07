@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/2416501023.css">
-    <title>Etkinlik Detay</title>
+    <script type="module" src="js/event.form.js"></script>
+    <title>Etkinlik Güncelle</title>
 </head>
 <body>
     <header>
@@ -13,7 +14,6 @@
             <a href="index.html">Ana Sayfa</a>
             <a href="etkinlikler.html">Etkinlikler</a>
             <a href="etkinlik-ekle.html">Ekle</a>
-            <a href="etkinlik-guncelle.html">Güncelle</a>
         </nav>
      </header>
 
@@ -21,7 +21,7 @@
         <form action="" class="etkinlik-form">
             <p class="alan">
                 <label for="etkinlikad">Etkinlik Adı</label> <br>
-                <input type="text" required>
+                <input type="text" value="Kariyer Günleri 2026" required>
             </p>
             <p class="alan">
                 <label for="kategori">Kategori</label> <br>
@@ -32,11 +32,11 @@
             </p>
             <p class="alan">
                 <label for="tarih">Tarih / Saat</label> <br>
-                <input type="datetime-local" required>
+                <input type="datetime-local" value="2026-10-12T14:00" required>
             </p>
             <p class="alan">
                 <label for="aciklama">Açıklama</label> <br>
-                <textarea name="aciklama" required></textarea>
+                <textarea name="aciklama" required>Yer A Blok Konferans Salonu Kontenjan 120</textarea>
             </p>
             <p>
                 <button type="submit" id="form-buton">Ekle</button>

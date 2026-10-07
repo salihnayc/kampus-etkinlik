@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/2416501023.css">
+    <script type="module" src="js/event.form.js"></script>
+    <title>Etkinlik Ekle</title>
+</head>
+<body>
+    <header>
+        <h1>Kampüs Etkinlikleri</h1>
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="etkinlikler.html">Etkinlikler</a>
+            <a href="etkinlik-ekle.html">Ekle</a>
+        </nav>
+     </header>
+
+    <main>
+        <form id="etkinlik-form" class="etkinlik-form" novalidate>
+            <p class="alan">
+                <label for="etkinlikad">Etkinlik Adı</label> <br>
+                <input type="text" name="etkinlikad" required>
+            </p>
+            <p class="alan">
+                <label for="kategori">Kategori</label> <br>
+                <select name="kategoriler">
+                    <option>Seminer</option>
+                    <option>Atölye</option>
+                    <option>Sergi</option>
+                </select>
+            </p>
+            <p class="alan">
+                <label for="tarih">Tarih</label> <br>
+                <input type="date" name="tarih" required>
+            </p>
+            <p class="alan">
+                <label for="saat">Saat</label> <br>
+                <input type="time" name="saat" required>
+            </p>
+            <p class="alan">
+                <label for="yer">Yer</label> <br>
+                <input type="text" name="yer" required>
+            </p>
+            <p class="alan">
+                <label for="kontenjan">Kontenjan</label> <br>
+                <input type="text" name="kontenjan" required>
+            </p>
+            <p class="alan">
+                <label for="aciklama">Açıklama</label> <br>
+                <textarea name="aciklama" id="aciklama" required></textarea>
+            </p>
+            <p>
+                <button type="submit" id="form-buton">Ekle</button>
+            </p>          
+        </form>
+
+        <div id="form-mesaj"></div>
+    </main>
+
+    <footer>Salih Naycı 2416501023 2026</footer>
+</body>
+</html>

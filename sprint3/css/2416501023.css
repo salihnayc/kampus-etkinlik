@@ -54,6 +54,7 @@ main{
 .etkinlik-form{
     margin: var(--bosluk-m);
     pad: var(--bosluk-m);
+    max-width: 70%;
 }
 
 .alan {
@@ -83,6 +84,14 @@ main{
     color: var(--renk-zemin);
     border-radius: var(--kose);
     border: 2px solid var(--ton);
+}
+
+.filtre {
+    margin: auto;
+    padding: var(--bosluk-m);
+    border-radius: var(--kose);
+    background-color: white;
+    width: fit-content;
 }
 
 .detay-article{
@@ -123,5 +132,9 @@ footer{
 
     .etkinlik-section-index{
         grid-template-columns: 1fr;
+    }
+
+    .etkinlik-form{
+        max-width: 100%;
     }
 }
