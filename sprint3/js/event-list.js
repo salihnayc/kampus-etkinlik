@@ -28,6 +28,19 @@ kategoriler.forEach((item) => kategoriFiltre.innerHTML += `<option>${item}</opti
 
 const arama = document.querySelector("#arama")
 
+kategoriFiltre.addEventListener("change", (e) => {
+    e.preventDefault()
+    const aranan = arama.value.toLocaleLowerCase("tr-TR")
+    let sonuc
+    if (kategoriFiltre.value === "Tümü") {
+        sonuc = events.filter((e) => e.title.toLocaleLowerCase("tr-TR").includes(aranan))
+    } else {
+        sonuc = events.filter((e) => e.category === kategoriFiltre.value && e.title.toLocaleLowerCase("tr-TR").includes(aranan))
+    } 
+    document.querySelector("#etkinlik-liste").textContent = `${sonuc.length} etkinlik`
+    render(sonuc)
+})
+
 arama.addEventListener("input", (e) => {
     e.preventDefault()
     const aranan = arama.value.toLocaleLowerCase("tr-TR")
