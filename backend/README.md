@@ -10,6 +10,7 @@ npm run dev
 # Ortam Değişkenleri 
 
 | Değişken | Varsayılan | Amaç                    |
+|----------|------------|-------------------------|
 | PORT     | 3000       | Sunucunun yürüdüğü port |
 
 # Rest Sözleşmesi
