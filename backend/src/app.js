@@ -6,6 +6,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/health", (req, res) => {
+    res.json({
+        status: "ok",
+        time: new Date().toISOString(),
+        student: "2416501023"
+    });
+})
+
 app.use("/events", eventRoutes)
 
 app.use((req, ress) => {
