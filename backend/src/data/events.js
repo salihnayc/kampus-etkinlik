@@ -1,62 +1,62 @@
 export const events = [
     {
     id: "event-1",
-    title: "Kariyer Günleri 2026",
-    category: "Seminer",
+    title: "AI Agent Temelleri",
+    category: "Atölye",
     date: "2026-10-12",
     time: "14:00",
-    location: "A Blok Konferans Salonu",
-    description: "Mezunlarla kariyer söyleşileri ve şirket standları.",
-    capacity: 100
-  },
-  {
-    id: "event-2",
-    title: "Robotik Atölyesi",
-    category: "Atölye",
-    date: "2026-10-20",
-    time: "10:00",
     location: "Bilgisayar Laboratuvarı 2",
-    description: "Arduino ile çizgi izleyen robot yapımı, başlangıç seviyesi.",
-    capacity: 20
-  },
-  {
-    id: "event-3",
-    title: "Siber Güvenlik Söyleşisi",
-    category: "Söyleşi",
-    date: "2026-10-27",
-    time: "13:00",
-    location: "B Blok Amfi 1",
-    description: "Sektörden bir uzmanla güvenlik kariyeri üzerine sohbet.",
-    capacity: 50
-  },
-  {
-    id: "event-4",
-    title: "Web Tasarım Atölyesi",
-    category: "Atölye",
-    date: "2026-11-03",
-    time: "15:00",
-    location: "Bilgisayar Laboratuvarı 1",
-    description: "HTML ve CSS ile ilk kişisel sayfanı yap.",
+    description: "Agent'lar ile işlerini nasıl hızlandıracağını öğren.",
     capacity: 30
   },
   {
+    id: "event-2",
+    title: "Arduino Eğitimi",
+    category: "Atölye",
+    date: "2026-10-15",
+    time: "10:00",
+    location: "Bilgisayar Laboratuvarı 1",
+    description: "Başlangıç düzeyinde Arduino eğitimi.",
+    capacity: 30
+  },
+  {
+    id: "event-3",
+    title: "Go Programlama Dili",
+    category: "Seminer",
+    date: "2026-10-27",
+    time: "13:00",
+    location: "B Blok Amfi 1",
+    description: "Go programlama dilinin temellerini sektörden öğren.",
+    capacity: 80
+  },
+  {
+    id: "event-4",
+    title: "Siber Güvenlik ve Yapay Zeka",
+    category: "Seminer",
+    date: "2026-11-03",
+    time: "15:00",
+    location: "B Blok Konferans Salonu",
+    description: "Yapay Zekanın siber güvenliği nasıl etkilediğini öğren",
+    capacity: 80
+  },
+  {
     id: "event-5",
-    title: "Kodlama Yarışması",
+    title: "Çizgi İzleyen Robot Yarışması",
     category: "Yarışma",
     date: "2026-11-10",
     time: "09:30",
-    location: "Kütüphane Etkinlik Alanı",
-    description: "Üç kişilik takımlarla dört saatlik algoritma yarışması.",
-    capacity: 10
+    location: "Mühendislik Fakültesi",
+    description: "Çizgi izleyen robotunu hazırla yarışmaya katıl.",
+    capacity: 15
   },
   {
     id: "event-6",
-    title: "Yapay Zekâ Semineri",
-    category: "Seminer",
+    title: "Valorant Turnuvası",
+    category: "Turnuva",
     date: "2026-11-17",
     time: "14:30",
-    location: "A Blok Konferans Salonu",
-    description: "Büyük dil modelleri nasıl çalışır? Temel kavramlar ve örnekler.",
+    location: "A Blok Sınıf 3",
+    description: "Turnuvayı kazan büyük ödülü al.",
     capacity: 50
   }
 ]
