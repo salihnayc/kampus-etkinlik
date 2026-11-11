@@ -1,0 +1,566 @@
+{
+  "info": {
+    "_postman_id": "1976b296-4088-4e56-a016-3437fc3221bb",
+    "name": "Kampüs API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "60115564",
+    "_collection_link": "https://go.postman.co/collection/60115564-1976b296-4088-4e56-a016-3437fc3221bb?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/health/",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "health",
+            ""
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "health",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/health/",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "health",
+                ""
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "72"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"48-WWavaoma3OMuQRyZ3mRwQSKCqjY\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 11 Nov 2026 10:20:34 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": \"ok\",\n  \"time\": \"2026-11-11T10:20:34.389Z\",\n  \"student\": \"2416501023\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "events",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/events/",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "events",
+            ""
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "events",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/events/",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "events",
+                ""
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "1713"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"6b1-zLpPgK2/DHkGEDOqanXEGAsyRz4\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 11 Nov 2026 10:20:46 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n  {\n    \"id\": \"event-1\",\n    \"title\": \"AI Agent Temelleri\",\n    \"category\": \"Atölye\",\n    \"date\": \"2026-10-12\",\n    \"time\": \"14:00\",\n    \"location\": \"Bilgisayar Laboratuvarı 2\",\n    \"description\": \"Agent'lar ile işlerini nasıl hızlandıracağını öğren.\",\n    \"capacity\": 30\n  },\n  {\n    \"id\": \"event-2\",\n    \"title\": \"Arduino Eğitimi\",\n    \"category\": \"Atölye\",\n    \"date\": \"2026-10-15\",\n    \"time\": \"10:00\",\n    \"location\": \"Bilgisayar Laboratuvarı 1\",\n    \"description\": \"Başlangıç düzeyinde Arduino eğitimi.\",\n    \"capacity\": 30\n  },\n  {\n    \"id\": \"event-3\",\n    \"title\": \"Go Programlama Dili\",\n    \"category\": \"Seminer\",\n    \"date\": \"2026-10-27\",\n    \"time\": \"13:00\",\n    \"location\": \"B Blok Amfi 1\",\n    \"description\": \"Go programlama dilinin temellerini sektörden öğren.\",\n    \"capacity\": 80\n  },\n  {\n    \"id\": \"event-4\",\n    \"title\": \"Siber Güvenlik ve Yapay Zeka\",\n    \"category\": \"Seminer\",\n    \"date\": \"2026-11-03\",\n    \"time\": \"15:00\",\n    \"location\": \"B Blok Konferans Salonu\",\n    \"description\": \"Yapay Zekanın siber güvenliği nasıl etkilediğini öğren\",\n    \"capacity\": 80\n  },\n  {\n    \"id\": \"event-5\",\n    \"title\": \"Çizgi İzleyen Robot Yarışması\",\n    \"category\": \"Yarışma\",\n    \"date\": \"2026-11-10\",\n    \"time\": \"09:30\",\n    \"location\": \"Mühendislik Fakültesi\",\n    \"description\": \"Çizgi izleyen robotunu hazırla yarışmaya katıl.\",\n    \"capacity\": 15\n  },\n  {\n    \"id\": \"event-6\",\n    \"title\": \"Valorant Turnuvası\",\n    \"category\": \"Turnuva\",\n    \"date\": \"2026-11-17\",\n    \"time\": \"14:30\",\n    \"location\": \"A Blok Sınıf 3\",\n    \"description\": \"Turnuvayı kazan büyük ödülü al.\",\n    \"capacity\": 50\n  },\n  {\n    \"id\": \"event-1794392279887\",\n    \"title\": \"Örnek Etkinlik\",\n    \"category\": \"Örnek Kategori\",\n    \"date\": \"2026-11-11\",\n    \"capacity\": 30,\n    \"time\": \"14:00\",\n    \"location\": \"Örnek Yer\",\n    \"description\": \"Açıklama\"\n  },\n  {\n    \"id\": \"event-1794392295105\",\n    \"title\": \"Örnek Etkinlik\",\n    \"category\": \"Örnek Kategori\",\n    \"date\": \"2026-11-11\",\n    \"capacity\": 30,\n    \"time\": \"14:00\",\n    \"location\": \"Örnek Yer\",\n    \"description\": \"Açıklama\"\n  }\n]"
+        }
+      ]
+    },
+    {
+      "name": "event-2",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/events/event-2",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "events",
+            "event-2"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "event-2",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/events/event-2",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "events",
+                "event-2"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "211"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"d3-xFow3380Ef6NlMxkvmXIFxnOHGo\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 11 Nov 2026 10:20:55 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"id\": \"event-2\",\n  \"title\": \"Arduino Eğitimi\",\n  \"category\": \"Atölye\",\n  \"date\": \"2026-10-15\",\n  \"time\": \"10:00\",\n  \"location\": \"Bilgisayar Laboratuvarı 1\",\n  \"description\": \"Başlangıç düzeyinde Arduino eğitimi.\",\n  \"capacity\": 30\n}"
+        },
+        {
+          "name": "event-2",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/events/event-2",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "events",
+                "event-2"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "211"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"d3-xFow3380Ef6NlMxkvmXIFxnOHGo\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 11 Nov 2026 10:20:55 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"id\": \"event-2\",\n  \"title\": \"Arduino Eğitimi\",\n  \"category\": \"Atölye\",\n  \"date\": \"2026-10-15\",\n  \"time\": \"10:00\",\n  \"location\": \"Bilgisayar Laboratuvarı 1\",\n  \"description\": \"Başlangıç düzeyinde Arduino eğitimi.\",\n  \"capacity\": 30\n}"
+        }
+      ]
+    },
+    {
+      "name": "yok",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:3000/events/yok",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "events",
+            "yok"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "yok",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:3000/events/yok",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "events",
+                "yok"
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "39"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"27-J+jS3zIADGcyczvXiI0x4J4SWro\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 11 Nov 2026 10:21:09 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"error\": {\n    \"message\": \"Event not found\"\n  }\n}"
+        }
+      ]
+    },
+    {
+      "name": "post-full",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Örnek Etkinlik\",\r\n    \"category\": \"Örnek Kategori\",\r\n    \"date\": \"2026-11-11\",\r\n    \"capacity\": 30,\r\n    \"time\": \"14:00\",\r\n    \"location\": \"Örnek Yer\",\r\n    \"description\": \"Açıklama\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:3000/events/",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "events",
+            ""
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "post-full",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"Örnek Etkinlik\",\r\n    \"category\": \"Örnek Kategori\",\r\n    \"date\": \"2026-11-11\",\r\n    \"capacity\": 30,\r\n    \"time\": \"14:00\",\r\n    \"location\": \"Örnek Yer\",\r\n    \"description\": \"Açıklama\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "localhost:3000/events/",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "events",
+                ""
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "183"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"b7-qoXO4K1JkDH+X/PI6o2VYApY6uE\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 11 Nov 2026 10:21:15 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"id\": \"event-1794392475967\",\n  \"title\": \"Örnek Etkinlik\",\n  \"category\": \"Örnek Kategori\",\n  \"date\": \"2026-11-11\",\n  \"capacity\": 30,\n  \"time\": \"14:00\",\n  \"location\": \"Örnek Yer\",\n  \"description\": \"Açıklama\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "post-title",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Örnek Etkinlik\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:3000/events/",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "events",
+            ""
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "post-title",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"title\": \"Örnek Etkinlik\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "localhost:3000/events/",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "events",
+                ""
+              ]
+            }
+          },
+          "status": "Bad Request",
+          "code": 400,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "61"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"3d-TsZb2zE1ir8CDc8lZuR0XJSqehk\""
+            },
+            {
+              "key": "Date",
+              "value": "Wed, 11 Nov 2026 10:21:22 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"error\": {\n    \"message\": \"title, category and date are required\"\n  }\n}"
+        }
+      ]
+    }
+  ]
+}
